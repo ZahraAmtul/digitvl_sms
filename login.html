@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 big">
+                <h2>LOGIN</h2>
+                <img src="assets/login.png" alt="">
+            </div>
+            <div class="col-md-6 well">
+
+                <img src="assets/welcome.png" alt="">
+                <div class="m-4">
+                    <form action="/examples/actions/confirmation.php" class="needs-validation" method="post" novalidate>
+                        <div class="mb-3">
+                            <label class="form-label" for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com" required>
+
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="inputPassword">Password</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="********"
+                                required>
+                            <div class="invalid-feedback">Please enter your password to continue.</div>
+                        </div>
+                        <div class="mb-3">
+                            <a href="http://"><p style="color: #00DAC8; text-align:right">Forgot Password?</p></a>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkRemember">
+                                <label class="form-check-label" for="checkRemember">Remember me</label>
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <button type="submit" class="btn btn-primary" style="margin-right: 10px;">Log In</button>
+                            <button type="submit" class="btn btn-primary">Sign Up Now</button>
+
+                        </div>
+                        
+                    </form>
+
+                    <!-- JavaScript for disabling form submissions if there are invalid fields -->
+                    <script>
+                        // Self-executing function
+                        (function () {
+                            'use strict';
+                            window.addEventListener('load', function () {
+                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                var forms = document.getElementsByClassName('needs-validation');
+
+                                // Loop over them and prevent submission
+                                var validation = Array.prototype.filter.call(forms, function (form) {
+                                    form.addEventListener('submit', function (event) {
+                                        if (form.checkValidity() === false) {
+                                            event.preventDefault();
+                                            event.stopPropagation();
+                                        }
+                                        form.classList.add('was-validated');
+                                    }, false);
+                                });
+                            }, false);
+                        })();
+                    </script>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

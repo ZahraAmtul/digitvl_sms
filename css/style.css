@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400;500&display=swap');
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    
+    margin: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #0B1828;
+}
+.container-fluid{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+.first {
+    padding: 100px;
+
+
+}
+
+.nav-link:hover {
+    color: #00DAC8 !important;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: aqua;
+
+}
+
+.navbar-brand:hover {
+    color: #93f5ed;
+}
+
+.navbar-toggler {
+    background: aqua;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: white;
+}
+
+.navbar-toggler span+span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+
+.navbar-toggler span+span+span {
+
+    width: 10px;
+    margin-left: 10px;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-hover {
+    border-top: 4px solid aqua;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    border-top: 4px solid aqua;
+    color: aqua;
+}
+
+.navbar-nav button {
+    padding: 1.2rem 0;
+}
+
+.navbar-nav .btn {
+    
+    background-color: #00DAC8;
+    color: white;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.navbar-nav .btn:hover {
+    color: black;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+    font-weight: 600;
+}
+
+img {
+    float: right;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.maindiv1 {
+    height: 400px;
+    width: 270px;
+    background-color: #00DAC8;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #0B1828;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+}
+.maindiv1:hover{
+    border: #00DAC8 solid 2px;
+    box-shadow: none;
+}
+.maindiv2:hover{
+    border: #00DAC8 solid 2px;
+    box-shadow: none;
+}
+.maindiv3:hover{
+    border: #00DAC8 solid 2px;
+    box-shadow: none;
+}
+.maindiv2 {
+    height: 420px;
+    width: 270px;
+    background-color: #00DAC8;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #0B1828;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+}
+
+.maindiv3 {
+    height: 300px;
+    width: 270px;
+    background-color: #00DAC8;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #0B1828;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+}
+
+.div1 {
+    height: 60px;
+    width: 60px;
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin-left: 200px;
+    background-color: #00DAC8;
+    padding-top: 12px;
+    padding-right: 10px;
+}
+.starter{
+    padding-left: 20px;
+    color: white;
+}
+.starter img{
+    float: left;
+    margin-right: 20px;
+}
+.starter li{
+    list-style-image: url('../assets/star.png');
+    padding-top: 10px;
+    color: rgb(200, 200, 200);
+    font-size: small;
+}
+footer {
+    background: #0B1828;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+  }
+  footer a{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+  }
+  footer a:hover{
+    color: #00DAC8;
+  }
+  .first .btn{
+    background-color: #00DAC8;
+    height: 50px;
+   color: #0B1828;
+   font-weight: 600;
+  }
+  .first .btn:hover{
+    background-color: #0B1828;
+    height: 50px;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+    color: white;
+   font-weight: 600;
+  }
+  @media (max-width: 700px) {
+    .home{
+        display: none;
+    }
+  }

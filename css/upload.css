@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400;500&display=swap');
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+    margin: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #0B1828;
+}
+h2{
+    padding-left: 40px;
+}
+#up1 {
+    height: 500px;
+    width: 500px;
+    background-color: #0B1828;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+
+}
+
+#up2 {
+    margin-top: 25px;
+    height: 400px;
+    width: 400px;
+    background-color: #0B1828;
+    border-radius: 10px;
+    box-shadow: inset 0px 10px 40px rgba(0, 218, 200, 0.08);
+}
+
+#up1 .btn {
+    background-color: #00DAC8;
+    font-weight: 500;
+    border: none;
+}
+
+#up1 .btn:hover {
+    background-color: #5ef5e8;
+    color: #0B1828;
+    font-weight: 500;
+    border: none;
+}
+
+.img1 {
+    padding-top: 40%;
+    padding-left: 35%;
+}
+
+.drag {
+    display: block;
+    padding-top: 20%;
+    padding-left: 22%;
+}
+
+.center {
+    text-align: center;
+}
+
+#up3 {
+    height: 250px;
+    width: 500px;
+    background-color: #0B1828;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+    ;
+}
+
+p {
+    color: white;
+}
+
+.nav-link {
+    color: #00DAC8;
+
+}
+
+.nav-link:hover {
+
+    border-left: #00DAC8 solid 2px;
+
+    color: #5ef5e8;
+}
+
+.icon {
+    color: #00DAC8;
+
+}
+
+.icon:hover {
+
+
+    color: #5ef5e8;
+
+}
+
+@media (max-width:500px) {
+    #up2 {
+        height: 200px;
+        width: 200px;
+        padding: 0;
+
+    }
+
+    #up1 {
+
+        height: 300px;
+        width: 300px;
+    }
+
+    #up3 {
+        height: 250px;
+        width: 300px;
+        background-color: #0B1828;
+        border-radius: 10px;
+        box-shadow: 0px 10px 40px rgba(0, 218, 200, 0.08);
+        ;
+    }
+
+    .img1 {
+        padding-top: 20%;
+        padding-left: 30%;
+    }
+
+    .drag {
+        display: block;
+        font-size: x-small;
+        padding-left: 22%;
+    }
+    #up1 .btn {
+        background-color: #00DAC8;
+        font-weight: 500;
+        border: none;
+        font-size: x-small;
+    }
+
+}
+
+@media (max-width:1200px) {
+    #up3 {
+        width: auto;
+        margin-top: 40%;
+    }
+    #up2 {
+        height: 200px;
+        width: 200px;
+        padding: 0;
+
+    }
+
+    #up1 {
+
+        height: 300px;
+        width: 300px;
+    }
+    .img1 {
+        padding-top: 20%;
+        padding-left: 30%;
+    }
+
+    .drag {
+        display: block;
+        font-size: x-small;
+        padding-left: 22%;
+    }
+
+}
+/* @media (max-width:1200px) {
+    #up3 {
+        width: auto;
+    }
+
+} */

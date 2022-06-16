@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400;500&display=swap');
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+    margin: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #0B1828;
+}
+.container{
+    background-color: #00DAC8;
+    border-top-right-radius: 50px;
+}
+.big{
+   
+    border-top-right-radius: 200px;
+    background-color:rgb(18, 71, 71);
+    height: 100vh;
+  
+}
+.big img{
+    margin-top: 15%;
+    text-align: center;
+    width: 80%;
+    padding-left: 15%;
+   height: 70%;
+}
+h2{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+label{
+    color: #00DAC8;
+}
+
+.btn {
+    background-color: #00DAC8;
+    font-weight: 500;
+    border: none;
+}
+
+ .btn:hover {
+    background-color: #5ef5e8;
+    color: #0B1828;
+    font-weight: 500;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.well img{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.well{
+    height: 100vh;
+}
+@media (max-width:500px) {
+
+   .big{
+       display: none;
+   }
+   .well img{
+    padding-top: 10%;
+   padding-right: 10%;
+    height: 200px;
+    width: 400px;
+}
+.well{
+    padding-top: 50px;
+    height: 100vh;
+}
+form{
+    padding-top: 50px;
+}
+}
+@media (max-width:768px) {
+
+    .big{
+        display: none;
+    }
+    .well img{
+     padding-top: 10%;
+    padding-right: 10%;
+     height: 200px;
+     width: 400px;
+ }
+ .well{
+     padding-top: 20px;
+     height: 100vh;
+ }
+ form{
+     padding-top: 50px;
+ }
+ }
